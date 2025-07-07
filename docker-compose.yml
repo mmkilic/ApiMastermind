@@ -1,0 +1,9 @@
+version: '3.3'
+
+services:
+  s_app_mastermind:
+    container_name: c_app_mastermind
+    image: app_mastermind
+    restart: always
+    ports:
+      - 8005:8080
